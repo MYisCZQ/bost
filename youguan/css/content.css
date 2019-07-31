@@ -1,0 +1,34 @@
+.content{width: 1200px;margin: auto;position: relative;z-index: 9;margin-bottom: 100px;}
+.product{width: 1200px;padding-top: 30px;position: relative;}
+.product h1{font: 24px "微软雅黑";color: #000000;text-align: center;margin: auto;}
+.pro-span{display: block;width: 44px;height: 3px;background: #FF0000;text-align: center;margin: auto;margin-top: 15px;}
+.por-one{margin-top: 30px;}
+.por-one ul{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.por-one ul li{width: 45%;background: #f9f9f9;padding: 2%;border-radius:10px ;margin-bottom: 20px;}
+.por-one ul li img{display: inline-block;vertical-align: middle;}
+.por-one ul li span{display: inline-block;vertical-align: middle;font-size: 18px;font-family: "微软雅黑";margin-left: 10px;width: 70%;}
+#dituContent{height: 500px;}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+.content{width: 792px;margin: auto;position: relative;z-index: 9;margin-bottom: 100px;}
+.product{width: 792px;padding-top: 30px;position: relative;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+.content{width: 96%;margin: auto;position: relative;z-index: 9;margin-bottom: 100px;padding: 0 2%;}
+.product{width: 100%;padding-top: 30px;position: relative;}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+.content{width: 96%;margin: auto;position: relative;z-index: 9;margin-bottom: 100px;padding: 0 2%;}
+.product{width: 100%;padding-top: 30px;position: relative;}
+.por-one{display: block;}
+.por-one ul li{width: 100%;}
+#dituContent{height: 350px;}
+}
+
+
+
+
+

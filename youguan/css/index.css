@@ -1,0 +1,811 @@
+.content {
+    width: 1200px;
+    margin: auto;
+    margin-top: 36px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+/*1*/
+
+.one {
+    width: 1200px;
+    position: relative;
+}
+
+.one h1 {
+    font: 24px "微软雅黑";
+    color: #000000;
+}
+
+.one-list {
+    display: flex;
+    margin-top: 10px;
+}
+
+.one-list .one-img {
+    width: 570px;
+}
+
+.one-list .one-img img {
+    display: block;
+    width: 100%;
+}
+
+.one-list .one-right {
+    width: 560px;
+    margin-left: 70px;
+}
+
+.one-list .one-right .right-span {
+    font: 24px "微软雅黑";
+    color: #000000;
+    display: inline-block;
+}
+
+.one-list .one-right .right-span .xian {
+    display: block;
+    width: 44px;
+    height: 3px;
+    background: #FF0000;
+    margin-top: 20px;
+}
+
+.one-p {
+    margin-top: 40px;
+}
+
+.one-p p {
+    font: 14px "微软雅黑";
+    color: #000000;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.one-p a {
+    font: 14px "微软雅黑";
+    display: block;
+    width: 94px;
+    height: 30px;
+    border: 1px solid #000;
+    color: #000;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+/*2*/
+
+.content-a {
+    background: #dbf8ff;
+    padding-bottom: 100px;
+}
+
+.content-b {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    z-index: 9;
+}
+
+.content-b .tow {
+    width: 1200px;
+    padding-top: 50px;
+}
+
+.content-b .tow h1 {
+    font: 24px "微软雅黑";
+    color: #000000;
+}
+
+.tow-list {
+    margin-top: 10px;
+}
+
+.tow-list .tow-img {
+    width: 525px;
+}
+
+.tow-list .tow-img ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tow-list .tow-img ul li {
+    width: 48%;
+    margin-bottom: 16px;
+}
+
+.tow-list .tow-img img {
+    display: block;
+    width: 100%;
+}
+
+.tow-list .right-span {
+    font: 24px "微软雅黑";
+    color: #000000;
+    display: inline-block;
+}
+
+.tow-list .right-span .xian {
+    display: block;
+    width: 44px;
+    height: 3px;
+    background: #FF0000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.poin {
+    display: flex;
+}
+
+.tow-list .tow-right {
+    width: 605px;
+    margin-right: 70px;
+}
+
+.tow-list .tow-right a {
+    display: block;
+}
+
+.tow-list .tow-right a img {
+    display: block;
+    width: 100%;
+}
+
+.tow-p {
+    margin-top: 40px;
+}
+
+.tow-p a {
+    font: 14px "微软雅黑";
+    display: block;
+    width: 94px;
+    height: 30px;
+    border: 1px solid #000;
+    color: #000;
+    line-height: 30px;
+    text-align: center;
+    float: right;
+}
+
+/*3*/
+
+.product {
+    width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.product h1 {
+    font: 24px "微软雅黑";
+    color: #000000;
+    text-align: center;
+    margin: auto;
+    width: 150px;
+    background: #FFFFFF;
+    z-index: 2;
+    position: relative;
+}
+
+.product ul {
+    border: 2px solid #0e95a0;
+    margin-top: -30px;
+    padding: 50px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product ul li {
+    width: 19%;
+}
+
+.product ul li a img {
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /*1*/
+    .content {
+        width: 792px;
+        margin: auto;
+        margin-top: 30px;
+        position: relative;
+        z-index: 9;
+        margin-bottom: 100px;
+    }
+    .one {
+        width: 792px;
+        position: relative;
+    }
+    .one h1 {
+        font: 22px "微软雅黑";
+        color: #000000;
+    }
+    .one-list {
+        display: flex;
+        margin-top: 10px;
+    }
+    .one-list .one-img {
+        width: 370px;
+    }
+    .one-list .one-img img {
+        display: block;
+        width: 100%;
+    }
+    .one-list .one-right {
+        width: 372px;
+        margin-left: 50px;
+    }
+    .one-list .one-right .right-span {
+        font: 20px "微软雅黑";
+        color: #000000;
+        display: inline-block;
+    }
+    .one-list .one-right .right-span .xian {
+        display: block;
+        width: 44px;
+        height: 3px;
+        background: #FF0000;
+        margin-top: 10px;
+    }
+    .one-list .one-right img {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: -20px;
+        margin-left: 20px;
+        width: 20%;
+    }
+    .one-p {
+        margin-top: 20px;
+    }
+    .one-p p {
+        font: 14px "微软雅黑";
+        color: #000000;
+        line-height: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+    .one-p a {
+        font: 14px "微软雅黑";
+        display: block;
+        width: 94px;
+        height: 30px;
+        border: 1px solid #000;
+        color: #000;
+        line-height: 30px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+    }
+    /*2*/
+    .content-a {
+        background: #dbf8ff;
+        padding-bottom: 100px;
+    }
+    .content-b {
+        width: 792px;
+        margin: auto;
+        position: relative;
+        z-index: 9;
+    }
+    .content-b .tow {
+        width: 792px;
+        padding-top: 50px;
+    }
+    .content-b .tow h1 {
+        font: 24px "微软雅黑";
+        color: #000000;
+    }
+    .tow-list {
+        margin-top: 10px;
+    }
+    .tow-list .tow-img {
+        width: 345px;
+    }
+    .tow-list .tow-img ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .tow-list .tow-img ul li {
+        width: 48%;
+        margin-bottom: 16px;
+    }
+    .tow-list .tow-img img {
+        display: block;
+        width: 100%;
+    }
+    .tow-list .right-span {
+        font: 24px "微软雅黑";
+        color: #000000;
+        display: inline-block;
+    }
+    .tow-list .right-span .xian {
+        display: block;
+        width: 44px;
+        height: 3px;
+        background: #FF0000;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .poin {
+        display: flex;
+    }
+    .tow-list .tow-right {
+        width: 405px;
+        margin-right: 40px;
+    }
+    .tow-list .tow-right a {
+        display: block;
+    }
+    .tow-list .tow-right a img {
+        display: block;
+        width: 100%;
+    }
+    .tow-p {
+        margin-top: 10px;
+    }
+    .tow-p a {
+        font: 14px "微软雅黑";
+        display: block;
+        width: 94px;
+        height: 30px;
+        border: 1px solid #000;
+        color: #000;
+        line-height: 30px;
+        text-align: center;
+        float: right;
+    }
+    /*3*/
+    .product {
+        width: 792px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .product h1 {
+        font: 24px "微软雅黑";
+        color: #000000;
+        text-align: center;
+        margin: auto;
+        width: 150px;
+        background: #FFFFFF;
+        z-index: 2;
+        position: relative;
+    }
+    .product ul {
+        border: 2px solid #0e95a0;
+        margin-top: -30px;
+        padding: 50px 20px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .product ul li {
+        width: 24%;
+    }
+    .product ul li a img {
+        display: block;
+        width: 100%;
+    }
+    .product ul li:last-child {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    /*1*/
+    .content {
+        width: 748px;
+        margin: auto;
+        margin-top: 30px;
+        position: relative;
+        z-index: 9;
+        padding: 0 10px;
+        margin-bottom: 100px;
+    }
+    .one {
+        width: 748px;
+        position: relative;
+    }
+    .one h1 {
+        font: 22px "微软雅黑";
+        color: #000000;
+    }
+    .one-list {
+        display: flex;
+        margin-top: 10px;
+    }
+    .one-list .one-img {
+        width: 355px;
+    }
+    .one-list .one-img img {
+        display: block;
+        width: 100%;
+    }
+    .one-list .one-right {
+        width: 358px;
+        margin-left: 35px;
+    }
+    .one-list .one-right .right-span {
+        font: 20px "微软雅黑";
+        color: #000000;
+        display: inline-block;
+    }
+    .one-list .one-right .right-span .xian {
+        display: block;
+        width: 44px;
+        height: 3px;
+        background: #FF0000;
+        margin-top: 10px;
+    }
+    .one-list .one-right img {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: -20px;
+        margin-left: 20px;
+        width: 20%;
+    }
+    .one-p {
+        margin-top: 20px;
+    }
+    .one-p p {
+        font: 14px "微软雅黑";
+        color: #000000;
+        line-height: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+    .one-p a {
+        font: 14px "微软雅黑";
+        display: block;
+        width: 94px;
+        height: 30px;
+        border: 1px solid #000;
+        color: #000;
+        line-height: 30px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+    }
+    /*2*/
+    .content-a {
+        background: #dbf8ff;
+        padding-bottom: 100px;
+    }
+    .content-b {
+        width: 748px;
+        margin: auto;
+        position: relative;
+        z-index: 9;
+    }
+    .content-b .tow {
+        width: 748px;
+        padding-top: 50px;
+    }
+    .content-b .tow h1 {
+        font: 24px "微软雅黑";
+        color: #000000;
+    }
+    .tow-list {
+        margin-top: 10px;
+    }
+    .tow-list .tow-img {
+        width: 325px;
+    }
+    .tow-list .tow-img ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .tow-list .tow-img ul li {
+        width: 48%;
+        margin-bottom: 16px;
+    }
+    .tow-list .tow-img img {
+        display: block;
+        width: 100%;
+    }
+    .tow-list .right-span {
+        font: 24px "微软雅黑";
+        color: #000000;
+        display: inline-block;
+    }
+    .tow-list .right-span .xian {
+        display: block;
+        width: 44px;
+        height: 3px;
+        background: #FF0000;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .poin {
+        display: flex;
+    }
+    .tow-list .tow-right {
+        width: 385px;
+        margin-right: 40px;
+    }
+    .tow-list .tow-right a {
+        display: block;
+    }
+    .tow-list .tow-right a img {
+        display: block;
+        width: 100%;
+    }
+    .tow-p {
+        margin-top: 10px;
+    }
+    .tow-p a {
+        font: 14px "微软雅黑";
+        display: block;
+        width: 94px;
+        height: 30px;
+        border: 1px solid #000;
+        color: #000;
+        line-height: 30px;
+        text-align: center;
+        float: right;
+    }
+    /*3*/
+    .product {
+        width: 748px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .product h1 {
+        font: 24px "微软雅黑";
+        color: #000000;
+        text-align: center;
+        margin: auto;
+        width: 150px;
+        background: #FFFFFF;
+        z-index: 2;
+        position: relative;
+    }
+    .product ul {
+        border: none;
+        margin-top: -30px;
+        padding: 50px 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .product ul li {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .product ul li a img {
+        display: block;
+        width: 100%;
+    }
+    .product ul li:last-child {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    /*1*/
+    .content {
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        position: relative;
+        z-index: 9;
+        margin-bottom: 50px;
+    }
+    .one {
+        width: 96%;
+        margin-left: 0;
+        padding-top: 0px;
+        margin: auto;
+        padding: 0 2%;
+    }
+    .one h1 {
+        font: 22px "微软雅黑";
+        color: #000000;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .one-list {
+        display: block;
+        margin-top: 10px;
+    }
+    .one-list .one-img {
+        max-width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .one-list .one-img img {
+        display: block;
+        width: 100%;
+    }
+    .one-list .one-right {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .one-list .one-right .right-span {
+        font: 20px "微软雅黑";
+        color: #000000;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+    .one-list .one-right .right-span .xian {
+        display: block;
+        width: 44px;
+        height: 3px;
+        background: #FF0000;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .one-list .one-right img {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: -20px;
+        margin-left: 20px;
+        width: 20%;
+        display: none;
+    }
+    .one-p {
+        margin-top: 20px;
+    }
+    .one-p p {
+        font: 14px "微软雅黑";
+        color: #000000;
+        line-height: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+    .one-p a {
+        font: 14px "微软雅黑";
+        display: block;
+        width: 94px;
+        height: 30px;
+        border: 1px solid #000;
+        color: #000;
+        line-height: 30px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        margin: auto;
+    }
+    /*2*/
+    .content-a {
+        background: #dbf8ff;
+        padding-bottom: 100px;
+    }
+    .content-b {
+        width: 96%;
+        margin: auto;
+        position: relative;
+        z-index: 9;
+        padding: 0 2%;
+    }
+    .content-b .tow {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .content-b .tow h1 {
+        font: 24px "微软雅黑";
+        color: #000000;
+    }
+    .tow-list {
+        margin-top: 10px;
+    }
+    .tow-list .tow-img {
+        width: 100%;
+    }
+    .tow-list .tow-img ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .tow-list .tow-img ul li {
+        width: 48%;
+        margin-bottom: 16px;
+    }
+    .tow-list .tow-img img {
+        display: block;
+        width: 100%;
+    }
+    .tow-list .right-span {
+        font: 24px "微软雅黑";
+        color: #000000;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .tow-list .right-span .xian {
+        display: block;
+        width: 44px;
+        height: 3px;
+        background: #FF0000;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .poin {
+        display: block;
+    }
+    .tow-list .tow-right {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .tow-list .tow-right a {
+        display: block;
+    }
+    .tow-list .tow-right a img {
+        display: block;
+        width: 100%;
+    }
+    .tow-p {
+        margin-top: 10px;
+    }
+    .tow-p a {
+        font: 14px "微软雅黑";
+        display: block;
+        width: 94px;
+        height: 30px;
+        border: 1px solid #000;
+        color: #000;
+        line-height: 30px;
+        text-align: center;
+        float: right;
+    }
+    /*3*/
+    .product {
+        width: 100%;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .product h1 {
+        font: 24px "微软雅黑";
+        color: #000000;
+        text-align: center;
+        margin: auto;
+        width: 150px;
+        background: #FFFFFF;
+        z-index: 2;
+        position: relative;
+    }
+    .product ul {
+        border: none;
+        margin-top: -30px;
+        padding: 50px 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .product ul li {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .product ul li a img {
+        display: block;
+        width: 100%;
+    }
+    .product ul li:last-child {
+        display: none;
+    }
+}

@@ -1,0 +1,21 @@
+.content{max-width:1180px;margin: auto;margin-top: 50px;padding: 0 10px;}
+.content h1{font: 30px "微软雅黑";color: #000000;text-align: center;margin: auto;}
+.content>p{display: block;text-align: center;margin: auto;padding: 10px 0;}
+.content>p span{display: inline-block;font: 14px "微软雅黑";color: #666666;text-align: center;margin: 0 10px;}
+.news-on{margin-top: 30px;}
+.news-on p{font: 14px "微软雅黑";line-height: 24px;margin-bottom: 20px;}
+.news-on p img{display: block;max-width: 100%;text-align: center;margin: auto;}
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+.content h1{font: 20px "微软雅黑";color: #000000;text-align: center;margin: auto;}
+	
+}
+
+
+
+
+
+
+
+
+
